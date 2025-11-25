@@ -1,4 +1,4 @@
-MCP stdio sample
+t cMCP stdio sample
 
 This sample exposes a simple MCP-like protocol over stdio (newline-delimited JSON). It's useful when embedding a model-backed assistant as a subprocess that communicates via stdin/stdout.
 
@@ -14,8 +14,8 @@ Run locally
 
 ```bash
 cd /Users/pkshrestha/git/mcp-server-samples/cli_mcp_stdio
-python3 -m venv .venv
-source .venv/bin/activate
+python3 -m venv uv
+source uv/bin/activate
 pip install -r requirements.txt
 
 # set OpenRouter-compatible env vars

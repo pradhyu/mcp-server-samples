@@ -10,8 +10,8 @@ export OPENAI_API_BASE="https://api.openrouter.ai/v1"
 Run:
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
+python3 -m venv uv
+source uv/bin/activate
 pip install -r requirements.txt
 python example.py
 ```

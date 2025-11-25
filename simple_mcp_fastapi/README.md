@@ -19,8 +19,8 @@ It forwards the messages to LangChain's ChatOpenAI. To use OpenRouter (OpenAI-co
 export OPENAI_API_KEY="<your-openrouter-key>"
 export OPENAI_API_BASE="https://api.openrouter.ai/v1"
 
-python3 -m venv .venv
-source .venv/bin/activate
+python3 -m venv uv
+source uv/bin/activate
 pip install -r requirements.txt
 
 # run dev server
